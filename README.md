@@ -1,2 +1,2 @@
 # brucelee
-A online game developing for facebook game where people can click on space all the time if someone in the game 4 times faster than the second faster guy, the winer is Bruce Lee.
+A facebook online game in which players can click on space as quickly as possible. If someone in the game can do it 4 times faster than the second faster guy, the winer is Bruce Lee.
