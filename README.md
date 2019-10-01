@@ -11,3 +11,19 @@ A facebook online game in which players can click on space as quickly as possibl
 ## Game Engine
 Phaser is an engine to create 2D games, I found out their github is quite active and documents are pretty easy as well. 
 https://phaser.io
+
+## Things to do
+* Add github pages to describe what the project is and news
+* Add backend to store use records
+** Add backend service end point to receive user command
+** Add backend service logic to compare user click speed and rank
+** Add backend service logic to identify final states of the game, clicking speed of the first quickest user is 4 times than that of the second fastest.
+** Add backend service to publish game status
+
+* Add frontend to interact with users
+** Add login check with facebook login api
+** Add game logic to show user click speed
+** Add game logic to receive user click
+** Add game logic to show different colors for different users
+** Refactor project to use webpack, npm
+** Add CI build in travis ci
