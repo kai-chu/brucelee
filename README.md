@@ -12,6 +12,10 @@ A facebook online game in which players can click on space as quickly as possibl
 Phaser is an engine to create 2D games, I found out their github is quite active and documents are pretty easy as well. 
 https://phaser.io
 
+## Backend end api specification
+GraphQL https://graphql.org/
+GraphQL is really good for defining apis with a good manner. 
+
 ## Things to do
 * Add github pages to describe what the project is and news
 * Add backend to store use records
@@ -27,3 +31,46 @@ https://phaser.io
     * Add game logic to show different colors for different users
     * Refactor project to use webpack, npm
     * Add CI build in travis ci
+
+## Intial graphql spec
+```
+Query {
+}
+
+Mutation { 
+  createRoom(request: Room!): RoomPayload!
+  joinRoom(request: Room!): JoinPayload!
+  startGame(): 
+}
+
+Subscription {
+  gameStatesUpdate(): UpdatePacketPayload!
+}
+
+input Room {
+   name: String!
+}
+
+type RoomPayload {
+   id: ID!
+   name: String!
+}
+
+type JoinPayload {
+   players: [Player]!
+}
+
+type Player {
+   id: String!
+}
+
+type UpdatePacketPayload {
+   delta: GameStateDelta
+}
+
+type GameStateDelta {
+   ... 
+}
+
+// something more
+```
