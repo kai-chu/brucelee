@@ -33,18 +33,18 @@ https://heroiclabs.com
 
 ## Game Stories
 When an user enters the game after login with facebook, interface with should be shown with create a room or join a room. A game will be started in a room.
-Create a room
-  User inputs the room name and create it.
-Invite other to join
-  User can input other users id and click invite to send invitations
-Join a room
-  User inputs the room id or id, click on join. Feedback should be given depending on if the game has started or not.
-  User can accept a inviation to friends join a room.
-View a list of rooms
-  User can see list of rooms existing in the game
-User can start a game
-  User click start to start a game and 3s later all user can start compete with each other
-User can quit a game
-  User click quit to leave a game room
-User Play
-  To play, user continuousely click space button on keyboard as quickly as possible to win the game to be Bruce Lee
+* Create a room
+  * User inputs the room name and create it.
+* Invite other to join
+  * User can input other users id and click invite to send invitations
+* Join a room
+  * User inputs the room id or id, click on join. Feedback should be given depending on if the game has started or not.
+  * User can accept a inviation to friends join a room.
+* View a list of rooms
+  * User can see list of rooms existing in the game
+* User can start a game
+  * User click start to start a game and 3s later all user can start compete with each other
+* User can quit a game
+  * User click quit to leave a game room
+* User Play
+  * To play, user continuousely click space button on keyboard as quickly as possible to win the game to be Bruce Lee
