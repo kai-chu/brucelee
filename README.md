@@ -48,3 +48,21 @@ When an user enters the game after login with facebook, interface with should be
   * User click quit to leave a game room
 * User Play
   * To play, user continuousely click space button on keyboard as quickly as possible to win the game to be Bruce Lee
+
+
+## Init project setup
+Start backend, go to backend 
+```
+cd backend
+docker-compose up
+```
+go to http://localhost:8080
+
+Start frontend ui
+```
+cd ui
+yarn install
+yarn build-dev
+yarn start
+```
+go to http://localhost:8081
