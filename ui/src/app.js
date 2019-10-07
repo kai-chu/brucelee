@@ -18,11 +18,9 @@ async function init() {
 init()
 
 function preload() {
-  this.load.setBaseURL('http://labs.phaser.io');
-
-  this.load.image('sky', 'assets/skies/space3.png');
-  this.load.image('logo', 'assets/sprites/phaser3-logo.png');
-  this.load.image('red', 'assets/particles/red.png');
+  this.load.image('logo', '/assets/hello.png');
+  this.load.image('red', 'http://labs.phaser.io/assets/particles/red.png');
+  this.load.image('sky','/assets/world.jpg');
 }
 
 function create() {
@@ -38,7 +36,7 @@ function create() {
 
   var logo = this.physics.add.image(400, 100, 'logo');
 
-  logo.setVelocity(100, 200);
+  logo.setVelocity(50, 100);
   logo.setBounce(1, 1);
   logo.setCollideWorldBounds(true);
 
